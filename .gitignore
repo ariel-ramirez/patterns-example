@@ -1,0 +1,17 @@
+*.idea
+*.iml
+*.swp
+target/
+out/
+
+/build/
+
+# jEnv files
+.java-version
+
+# Ignore merge conflic files
+*.orig
+
+# Ignore idea files
+*.iws
+*.ipr

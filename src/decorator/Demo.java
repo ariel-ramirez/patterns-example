@@ -12,10 +12,10 @@ public class Demo {
 
         DataSourceDecorator encoded = new CompressionDecorator(
             new EncryptionDecorator(
-                new FileDataSource("out/OutputDemo.txt")));
+                new FileDataSource("bin/OutputDemo.txt")));
         encoded.writeData(salaryRecords);
 
-        DataSource plain = new FileDataSource("out/OutputDemo.txt");
+        DataSource plain = new FileDataSource("bin/OutputDemo.txt");
 
         System.out.println("- Input ----------------");
         System.out.println(salaryRecords);
